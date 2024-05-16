@@ -1,0 +1,55 @@
+#multi-text {
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: lightblue;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    font-size: 25px; 
+
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px
+}
+
+.nav a {
+    color: palevioletred; 
+}
+
+.center-text {
+    text-align: center;
+}
+
+.my-first-div {
+    font-size: 30px;
+    color: rgb(119, 59, 97);
+    background-image: linear-gradient(to right, mintcream, rgb(226, 95, 154));
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif; 
+    border: 5px solid rgb(100, 61, 106); 
+}
+
+#span-1 {
+    color: rgb(140, 129, 240);
+    font-size: 100px;
+    
+}
+
+#span-2 {
+    color: rgb(23, 8, 160);
+    font-size: 25px; 
+    font-family:'Courier New', Courier, monospace;
+}

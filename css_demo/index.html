@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabelle | CSS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #orange-text {
+            color: orange;
+        }
+        .multi-line {
+             color: mediumpurple;
+             text-align:right;
+             font-size: 30px;
+        }
+        body {
+            background-image: url(images/pastel-purple-sky-background.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h2 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> -->
+   <!-- <link rel="stylesheet" href="https://use.typekit.net/seg3znm.css"> -->
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+
+    <h1 style="font-family: 'Sofia', sans-serif;">Today, we will learn about adding style to our pages.</h1>
+    <h2>This is how we add style with INLINE CSS</h2>
+    <p style="color:blue;">I want this text to be blue.</p>
+    <p style="font-size: 50px;">I want this text to be really BIG</p>
+    <p style="font-size: 5px;">But I want this text to be really small</p>
+    <p style="text-align: center;">I want this text to be centered.</p>
+    <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">I want this text to be in a different font.</p>
+    <p style="font-size: medium; text-align: right; color:deeppink; font-family: fantasy;">I want this text to be medium, right-aligned, pink, and a different font.</p>
+
+    <h2>I am back in class!</h2>
+    <p id="orange-text">I am very excited to be here.</p>
+    <p class="multi-line">This line will be styled the same as the next one</p>
+    <p class="multi-line">wowie</p>
+    <p class="multi-line">aaaaaaaaaaaaaaah</p>
+
+    <h2>puppies and cats</h2>
+    <p>first create your external style.css file.</p>
+    <p id="multi-text">give this line a selector and add the style details to style.css</p>
+
+    <h2>Can we use inline, internal, and external together?</h2>
+    <p>Yes</p>
+    <p style="color:mediumspringgreen;" id="small-text" class="center-text">I want this text to be green, small, and centered</p>
+
+    <h2>This is how we use divs and spans</h2>
+    <div class="my-first-div">
+        <p>This paragraph is part of a div weeeeeee</p>
+        <p>Spectacular</p>
+        <img src="images/poptart_cat_flying_space.PNG">
+        <p>Isn't that a beautiful image?</p>
+        <p>This <span id="span-1">word</span> and this <span id="span-2">group of words</span>will look different.</p>
+    </div>
+</body>
+</html>

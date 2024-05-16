@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowlton | Choose Your Own Adventure Game</title>
+</head>
+<body>
+    <script>
+        function playGame() {
+        var enterStore = confirm("Welcome to the Bellemart grocery store! Are you ready for your job interview?");
+        
+        if (enterStore == true) {
+            //You commence the interview
+            alert("You decide that you are ready for your interview at the Bellemart. The interviewer asks you his first question: Do you have any experience in retail jobs?");
+
+            var q1Choice = prompt("You respond with... 1) No I hate customers. 2) Yes, I worked at Walmart for 2 weeks, and was fired. 3) Yes, I worked at Target for 6 months.");
+            if (q1Choice == 1) {
+                alert("Um... please leave. Game Over.");
+            } else if (q1Choice == 2) {
+                alert("Unfortunately, I do not think you are right for this job position. Game Over.");
+            } else {
+                alert("Perfect! Moving on.");
+                var q2Choice = prompt("The interviewer asks his next question: What are your opinions on grocery stores? You respond with... 1) I am deeply afraid of them. Groceraphobia. 2) I prefer Whole Foods. 3) I love them! Especially Bellemart.");
+                if (q2Choice == 1) {
+                    alert("I am in your walls. Game over.");
+                } else if (q2Choice == 2) {
+                    alert("LOUD INCORRECT BUZZER ECHOES THROUGH THE VAST TALL CEILINGS OF THE BELLEMART. Game Over.");
+                } else {
+                    alert("Cool! Let's continue.");
+                    var lastChoice = prompt("Your interviewer asks you his last question: What do you? You respond with... 1) Great! 2) I strongly dislike the grocery store voices. 3) Eye ball jar.");
+                    if (lastChoice == "1") {
+                        alert("Game Over.");
+                    } else if (lastChoice == "2") {
+                        alert("Over Game.");
+                    } else {
+                        alert("Great!");
+                        alert("Great!");
+                        alert("Great!");
+                        alert("Great!");
+                        alert("G");
+                    }
+                }
+            
+            }
+        } else {
+            //you decided you weren't ready:
+            alert("Um... okay, have a good day then. Game Over.");
+        } 
+         var playAgain = confirm("Do you want to play again?")
+        if (playAgain == true) {
+            playGame();
+        }
+    }
+
+        playGame();
+
+      
+    </script>
+</body>
+</html>
